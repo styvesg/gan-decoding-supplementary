@@ -1,7 +1,8 @@
 # Generative Adversarial Networks Conditioned on Brain Activity Reconstruct Seen Images
-Supplementary material
+## Supplementary Material
 
 ### File: surrogate_ext_samples_Apr-14-2018_1615.mp4
+![file1](/surrogate_ext_samples_Apr-14-2018_1615.mp4)
 This shows a composite video of the trained generator samples conditioned on the surrogate "ext" images (See Fig. 1 for a description of the datasets). This demonstrate the limit of the reconstruction accuracy under our method.
 
 ### File: vim-1_val_samples_Apr-14-2018_1615.mp4
