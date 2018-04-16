@@ -1,5 +1,6 @@
 # Generative Adversarial Networks Conditioned on Brain Activity Reconstruct Seen Images
 ## Supplementary Material
+The thumbnail images below show the pixel-wise average over all frames of the associated video.
 
 ### File: [surrogate_ext_samples_Apr-14-2018_1615.mp4](/surrogate_ext_samples_Apr-14-2018_1615.mp4)
 ![surrogate_ext_samples_Apr-14-2018_1615.mp4](/fig/surrogate_ext_sample_average_Apr-14-2018_1615.png)
