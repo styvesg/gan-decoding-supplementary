@@ -15,3 +15,13 @@ This shows a composite video of the trained generator samples conditioned on the
 ### File: [vim-1_test_samples_Apr-14-2018_1615.mp4](/vim-1_test_samples_Apr-14-2018_1615.mp4)
 ![vim-1_test_samples_Apr-14-2018_1615.mp4](/fig/vim-1_test_sample_average_Apr-14-2018_1615.png)
 This shows a composite video of the trained generator samples conditioned on the fully cross validated vim-1 "test" voxel set corresponding to Fig. 5.
+
+## Details of the implementation
+### Encoding
+Annotated iPython Notebook coming soon.
+
+### Denoising
+Annotated iPython Notebook coming soon.
+
+### Decoding
+Annotated iPython Notebook coming soon.
