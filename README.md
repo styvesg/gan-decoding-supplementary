@@ -1,4 +1,6 @@
 # Generative Adversarial Networks Conditioned on Brain Activity Reconstruct Seen Images
+Preprint: https://www.biorxiv.org/content/early/2018/04/20/304774
+
 ## Supplementary Material
 The thumbnail images below show the pixel-wise average over all frames of the associated video.
 
