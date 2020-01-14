@@ -1,0 +1,35 @@
+import sys
+import os
+import struct
+import time
+import numpy as np
+import scipy.io as sio
+from scipy import ndimage as nd
+from scipy import misc
+import pickle
+import math
+import matplotlib.pyplot as plt
+import PIL.Image as pim
+
+
+def center_crop(im):
+    wax = np.argmax(im.size)
+    border = (max(im.size) - min(im.size)) /2 
+    if(wax==0):
+        return im.crop(box=(border, 0, im.size[0]-border, im.size[1]))
+    return im.crop(box=(0, border, im.size[0], im.size[1]-border))
+
+
+def list_files(dir_path):
+    fileNames = []
+    for f in os.listdir(dir_path):
+        if os.path.isfile(dir_path+f):
+            fileNames += [dir_path+f,]
+    return sorted(fileNames)
+
+def list_dir(dir_path):
+    dirNames = []
+    for f in os.listdir(dir_path):
+        if os.path.isdir(dir_path+f):
+            dirNames += [f,]
+    return sorted(dirNames)    
