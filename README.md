@@ -1,5 +1,6 @@
 # Generative Adversarial Networks Conditioned on Brain Activity Reconstruct Seen Images
 Preprint: https://www.biorxiv.org/content/early/2018/04/20/304774
+
 Reprint: https://ieeexplore.ieee.org/document/8616183
 
 ## Supplementary Material
