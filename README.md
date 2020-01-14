@@ -19,8 +19,9 @@ This shows a composite video of the trained generator samples conditioned on the
 
 ## Details of the implementation
 ### Encoding
-![Learning the feature extractor](/gan_imaging_cifar-10_classifier.ipynb)
-![Learning the voxel encoding model](/gan_imaging_cifar-10_fwrf_training.ipynb)
+[Learning the feature extractor](/gan_imaging_cifar-10_classifier.ipynb)
+
+[Learning the voxel encoding model](/gan_imaging_cifar-10_fwrf_training.ipynb)
 
 ### Decoding
-![Learning the conditional generative model and sampling](/gan_imaging_cifar-10.ipynb)
+[Learning the conditional generative model and sampling](/gan_imaging_cifar-10.ipynb)
