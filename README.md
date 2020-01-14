@@ -1,5 +1,6 @@
 # Generative Adversarial Networks Conditioned on Brain Activity Reconstruct Seen Images
 Preprint: https://www.biorxiv.org/content/early/2018/04/20/304774
+Reprint: https://ieeexplore.ieee.org/document/8616183
 
 ## Supplementary Material
 The thumbnail images below show the pixel-wise average over all frames of the associated video.
@@ -18,10 +19,8 @@ This shows a composite video of the trained generator samples conditioned on the
 
 ## Details of the implementation
 ### Encoding
-Annotated iPython Notebook coming soon.
-
-### Denoising
-Annotated iPython Notebook coming soon.
+Learning the feature extractor: gan_imaging_cifar-10_classifier.ipynb
+Learning the voxel encoding model: gan_imaging_cifar-10_fwrf_training.ipynb
 
 ### Decoding
-Annotated iPython Notebook coming soon.
+Learning the conditional generative model and sampling: gan_imaging_cifar-10.ipynb
